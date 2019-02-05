@@ -5,7 +5,7 @@ html {
 }
 
 h1 h2 {
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 header {
@@ -27,4 +27,33 @@ header {
 .odd {
   background-color: black;
   color: white;
+}
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align: right;
+}
+
+ol li {
+  padding: 1px;
+  background-color: grey;
+}
+
+li:nth-child(2n-1) {
+  background-color: green;
+}
+
+ol li p a:hover {
+  text-decoration: none;
+}
+
+ol ul li a:hover {
+  background-color: yellow;
+}
+
+ol ul li a:active {
+  background-color: red;
 }
